@@ -1,0 +1,29 @@
+{
+  "name": "nodeled",
+  "version": "0.0.1",
+  "description": "A simple library to control an Arduino+LED strip combo",
+  "keywords": [
+    "Arduino",
+    "serialport",
+    "led",
+    "led strip"
+  ],
+
+  "author": {
+    "name": "Dagwaging",
+    "email": "dagwaging@gmail.com"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "serialport": "^1.4.6",
+    "color": "^0.7.3"
+  },
+
+  "private": true,
+  "main": "nodeled.js"
+}
